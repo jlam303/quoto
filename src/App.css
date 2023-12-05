@@ -1,7 +1,27 @@
 .App {
   text-align: center;
 }
+h1{
+  margin: 2rem;
+  width: calc(100% - 4rem);
+}
+.bean{
+  font-weight: bold;
+  background-color: #21b1d9dc;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
 
+}
+.bean:hover{
+  cursor: pointer;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
